@@ -1,0 +1,18 @@
+{
+  "manifest_version": 2,
+  "name": "Colored Tabs",
+  "version": "1.0",
+
+  "description": "Add custom colours / icons to pinned tabs",
+
+  "icons": {
+    "48": "icons/colored-tabs.jpg"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*.mozilla.org/*"],
+      "js": ["colorise-tabs.js"]
+    }
+  ]
+}
