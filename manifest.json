@@ -10,6 +10,12 @@
     "48": "icons/icons8-pin-48.png"
   },
 
+  "browser_action": {
+      "default_icon": "icons/icons8-pin-32.png",
+      "default_title": "Colorize Tabs",
+      "default_popup": "popup/settings.html"
+    },
+
   "content_scripts": [
     {
       "matches": ["*://*.mozilla.org/*"],
