@@ -6,7 +6,8 @@
   "description": "Add custom colours / icons to pinned tabs",
 
   "icons": {
-    "48": "icons/colored-tabs.jpg"
+    "32": "icons/icons8-pin-32.png",
+    "48": "icons/icons8-pin-48.png"
   },
 
   "content_scripts": [
